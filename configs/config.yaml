@@ -1,0 +1,10 @@
+aws:
+  access_key: YOUR_AWS_ACCESS_KEY
+  secret_key: YOUR_AWS_SECRET_KEY
+  region: us-east-1
+
+gcp:
+  credentials_file: /path/to/gcp/credentials.json
+
+database:
+  uri: postgres://user:password@localhost:5432/cloudcost
